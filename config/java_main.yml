@@ -15,5 +15,5 @@
 
 # Configuration for the Java Main container
 ---
-java_main_class:
-arguments: org.zaproxy.zap.ZAP
+java_main_class: org.zaproxy.zap.ZAP
+arguments: -config api.disablekey=true -daemon
